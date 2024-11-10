@@ -4,6 +4,8 @@
 
 **Production and Average Crop Analytics** is a data-driven platform designed to provide insights into crop production and performance. By aggregating data from various sources, the tool enables users to analyze crop yield, average production, trends, and other key metrics. This helps farmers, researchers, and policymakers make informed decisions to improve agricultural productivity.
 
+You can access the live version of the platform here: [Production and Average Crop Analytics](https://manufac-master-pc6o.vercel.app/)
+
 ## Features
 
 - **Crop Production Analysis**: Visualize production data by crop, year, season, and more.
