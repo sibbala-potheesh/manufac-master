@@ -36,7 +36,7 @@
 3. **To Run the application**
 
    ```bash
-   yarn install
+   yarn dev
    ```
 
 4. **To build the application**
