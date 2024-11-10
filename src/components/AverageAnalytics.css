@@ -1,0 +1,83 @@
+/* src/components/Analytics.css */
+
+.analytics-paper {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+.analytics-description {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.analytics-table-wrapper {
+  margin-top: 2rem;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.analytics-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.analytics-table thead {
+  background-color: #f7f7f7;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.analytics-table th {
+  padding: 12px;
+  text-align: center;
+  font-size: 1rem;
+  color: #444;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.analytics-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.analytics-table td {
+  padding: 12px;
+  font-size: 1rem;
+  color: #555;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.analytics-table .mantine-Table-Tbody {
+  max-height: 300px;
+  overflow-y: auto;
+  display: block;
+}
+.analytics-table {
+  width: 100%;
+  table-layout: fixed; /* Ensures the table occupies full width */
+}
+
+.analytics-table th,
+.analytics-table td {
+  text-align: center; /* Aligns the text to the left */
+  padding: 8px;
+  word-wrap: break-word; /* Break long words to avoid overflow */
+}
+
+.analytics-table-wrapper {
+  max-height: 500px; /* Set the desired height for the scrollable area */
+  overflow-y: auto; /* Enables vertical scroll */
+}
